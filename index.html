@@ -2,43 +2,126 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Kevin Stewart's Portfolio</title>
   </head>
   <body>
-    <!-- navigation tags - block level element -->
+    <!-- START: navigation -->
     <header>
-    
+      <h1>
+        <a href="/">Kevin C Stewart</a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#my-work">My Work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <!-- end navigation -->
+    <!-- END: navigation -->
 
-    <!-- hero -->
+    <!-- hero/jumbotron -->
     <section class="hero">
-      <div class="hero">
-       
+      <div class="hero-sub">
+        <h2>This is my cool subtitle!</h2>
       </div>
     </section>
     <!-- end header -->
 
     <!-- START: About Me -->
-    <section id= class="intro">
-    
+    <section id="about-me" class="intro">
+      <div class="about-me-container">
+        <h2 class="section-title primary-border">
+          About Me
+        </h2>
+        <p>
+            Hello! My name is Kevin Stewart and this is my portfolio. Feel free to browse my work and review my resume. I am currently a Financial Analyst for Disney Parkes, Experiences, and Products. Please reach out if you have any questions. Thanks for visiting and have a magical day!
+        </p>
+      </div>
     </section>
     <!-- END: About Me -->
 
-    <!-- START: Work -->
-    <section id="what-you-do" class="steps">
-     
-    </section>
-    <!-- END: Work -->
+    <!-- START: My Work -->
+    <section id="my-work">
+      <div class="my-work-container">
+        <h2 class="section-title primary-border">
+          My Work
+        </h2>
 
-    <!-- START: Contact Me - footer -->
-    <footer>
-      <h2>❤️ Made with love by Kevin.</h2>
-      <div>
-        <a href=</a><br/>
+        <div class="allwork">
+                <article class="primary-work work">
+                    <div class="work-img work-1">
+                        <div>
+                            <h3>Run Buddy</h3>
+                            <h4>HTML/CSS</h4>
+                        </div>
+                    </div>
+                    <div class="work-info">
+                        <h3>Run Buddy</h3>
+                        <h4>HTML/CSS</h4>
+                    </div>
+                </article>
+                <div class="secondary-work">
+                    <article class="work">
+                        <div class="work-img-secondary work-2">
+                            <div>
+                                <h3>Super Smash Bros Randomizer</h3>
+                                <h4>HTML/CSS</h4>
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <h3>Super Smash Bros Randomizer</h3>
+                            <h4>HTML/CSS</h4>
+                        </div>
+                    </article>
+                    <article class="work">
+                        <div class="work-img-secondary work-3">
+                            <div>
+                                <h3>Calculator</h3>
+                                <h4>HTML/CSS</h4>
+                            </div>
+                        </div>
+                        <div class="work-info">
+                            <h3>Calculator</h3>
+                            <h4>HTML/CSS</h4>
+                        </div>
+                    </article>
+                </div>
+        </div>
       </div>
-    </footer>
-    <!-- END: Contact Me - footer -->
+    </section>
+    <!-- END: My Work -->
+
+    <!-- START: Contact Me -->
+    <section id="contact-me" class="contact">
+      <div class="flex-row">
+        <h2 class="section-title secondary-border">
+          Contact Me
+        </h2>
+      </div>
+
+      <div class="contact-info">
+        <div>
+          <h3>My Information</h3>
+          <address>
+            Phone: 555.555.5555<br/>
+            Email: <a href="kevin.test.email@email.ca">kevin.test.email@email.ca</a><br/>
+            <a href="https://github.com/stewk033" target="_blank">GitHub</a>
+          </address>
+        </div>
+      </div>
+    </section>
+    <!-- "reach out" end -->
   </body>
 </html>
