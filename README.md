@@ -28,18 +28,14 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 ## Credits
 
-Provided with a mock-up and original code from which to work.
+Provided with a mock-up from which to frame my site.
 
-See Original Code: [CODE](https://github.com/stewk033/urban-octo-telegram/blob/main/urban-octo-telegram-master/Develop/index.html)
-
-![MOCKUP](https://github.com/stewk033/urban-octo-telegram/blob/main/assets/images/01-html-css-git-homework-demo.png)
-
-Original code provided by Xander Rapstine: (https://github.com/Xandromus)
+![MOCKUP](https://github.com/stewk033/Personal-Portfolio/blob/main/assets/images/portfolio-sample.JPG)
 
 ## My Solution
 
-Live URL: (https://stewk033.github.io/urban-octo-telegram/)
+Live URL: (https://stewk033.github.io/Personal-Portfolio/)
 
 Refactored Code:
-* [HTML] (https://github.com/stewk033/urban-octo-telegram/blob/main/index.html)
-* [CSS] (https://github.com/stewk033/urban-octo-telegram/blob/main/assets/css/style.css)
+* [HTML] (https://github.com/stewk033/Personal-Portfolio/blob/main/index.html)
+* [CSS] (https://github.com/stewk033/Personal-Portfolio/blob/main/assets/css/style.css)

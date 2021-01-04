@@ -213,21 +213,7 @@
     overflow: hidden;
   }
 
-  .work:hover .work-img::after {
-    opacity: 1;
-  }
 
-  .work-img::after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(rgba(252, 225, 56, 0.3), var(--secondary-color));
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: 0.5s;
-  }
 
   .work-1 {
     background-image: url("../images/run-buddy.jpg");
