@@ -107,6 +107,10 @@
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
+
+  .hero-sub img {
+      width: 300px;
+  }
   /* HERO STYLES END */
   
   
@@ -242,7 +246,7 @@
   }
   /* WORK STYLES END */
   
-  /* REACH OUT STYLES START */
+  /* CONTACT STYLES START */
   .contact {
     background: var(--secondary-color);
   }
@@ -296,7 +300,7 @@
   }
   
   
-  /* REACH OUT STYLES END */
+  /* CONTACT STYLES END */
   
   /* UTILITIES */
   .text-left {
