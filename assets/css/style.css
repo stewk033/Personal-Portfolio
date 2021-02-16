@@ -11,7 +11,7 @@
   
   body {
     color: var(--secondary-color);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
   }
   
   
@@ -26,7 +26,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../images/outer-space.jpg");
+    background-image: url("../images/forest.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -36,15 +36,15 @@
   header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 50px;
+    font-size: 70px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    font-family:"Lucida Handwriting", cursive;
+    text-shadow: -1px 2px 8px #000000;
+    font-family: 'Hammersmith One', sans-serif;
   }
   
   header a {
     text-decoration: none;
-    color: var(--primary-color);
+    color: white;
   }
   
   header nav {
@@ -63,7 +63,7 @@
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: -5px 5px 8px #000000;
   }
   
   header nav ul li a:hover {
@@ -82,7 +82,7 @@
   
   /* HERO STYLES START */
   .hero {
-    background-image: url('../images/outer-space.jpg');
+    background-image: url('../images/forest.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -94,7 +94,6 @@
   
   .hero-sub {
     width: 35%;
-    text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
@@ -109,7 +108,14 @@
   }
 
   .hero-sub img {
-      width: 300px;
+      /* position: absolute; */
+      right: 0%;
+	    width: 300px; 
+	    height: auto; 
+	    top: 15vh; 
+	    left: 15vw; 
+	    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 100 100" xml:space="preserve"><style type="text/css">.blur{filter:url(%23softedge);}</style><filter id="softedge"><feGaussianBlur stdDeviation="3.5"></feGaussianBlur></filter><g class="blur"><rect x="10" y="10" width="80" height="80"/></g></svg>'); 
+	    -webkit-mask-size: cover; 
   }
   /* HERO STYLES END */
   
@@ -213,10 +219,8 @@
     overflow: hidden;
   }
 
-
-
   .work-1 {
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/bq2.jpg");
   }
   
   .work-2 {
