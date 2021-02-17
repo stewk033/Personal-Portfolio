@@ -26,7 +26,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../images/forest.jpg");
+    background-image: url("../images/portfolio-background.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -82,7 +82,7 @@
   
   /* HERO STYLES START */
   .hero {
-    background-image: url('../images/forest.jpg');
+    background-image: url('../images/portfolio-background.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -94,6 +94,7 @@
   
   .hero-sub {
     width: 35%;
+    text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
@@ -109,7 +110,6 @@
 
   .hero-sub img {
       /* position: absolute; */
-      right: 0%;
 	    width: 300px; 
 	    height: auto; 
 	    top: 15vh; 
